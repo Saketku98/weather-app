@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  height: 25px;
+}
+.sidebar {
+  border-right: 5px solid black;
+  height: 2100%;
+  width: 20%;
+  padding: 1rem;
+}
+.info-table {
+  height: 100%;
+  width: 80%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.search {
+  margin: 10px;
+}
+.search input {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.search button {
+  background-color: var(--dark);
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table button {
+  background-color: var(--dark);
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+}
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  background-color: var(--light);
+  color: white;
+}
+th,
+td {
+  padding: 0.5rem;
+}
+table input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.no-data {
+  text-align: center;
+  border: 1px solid black;
+  padding: 5rem 0;
+}
+
+.city-clicked {
+  border: 2px solid green;
+}
+.bg-yellow {
+  background-color: yellow;
+}
